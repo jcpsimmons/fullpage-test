@@ -1,0 +1,51 @@
+/* 
+Grey - #3D3836
+Teal - #17C2A2
+OJ - #FF4D28
+Tan1 - #D9D1CC
+Tan2 - #E3D9D2
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Old+Standard+TT:400,400i,700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+a {
+  font-family: "Old Standard TT", serif;
+}
+
+.heading-text {
+  letter-spacing: 0.05rem;
+  font-style: italic;
+}
+
+.sans-serif {
+  font-family: "Lato", sans-serif;
+}
+
+.teal-underline {
+  text-decoration: underline;
+  text-decoration-color: #17c2a2;
+  text-decoration-style: wavy;
+}
+
+#fullpage {
+  text-align: center;
+}
+
+#slide1 {
+  color: #d9d1cc;
+}
+
+#slide2 h1 {
+  color: #ff4d28;
+}
+
+#slide3 {
+  color: #d9d1cc;
+}

@@ -10,23 +10,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="./resources/fullpage.css">
     <link rel="stylesheet" href="./resources/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" class="rel">
     <title>fullPage.js | One Page Scroll sections Site Plugin</title>
 </head>
 
 <body data-lang="en" style="overflow: hidden; height: 100%;">
     <div id="fullpage" class="fullpage-wrapper">
-        <div class="section" id="slide1" data-anchor="DASLIDE1">
-            <h1>FIRST SLIDE</h1>
+        <div class="section heading-text" id="slide1" data-anchor="DASLIDE1">
+            <h1 class="teal-underline">This is the First Slide.</h1>
         </div>
         <div class="section" id="slide2" data-anchor="DASLIDE2">
-            <div class="slide"> Slide 1 </div>
+            <div class="slide">
+                <img class="img-responsive" src="https://via.placeholder.com/350x150" alt="" class="src">
+                <h1 class="heading-text">Slide 1</h1>
+            </div>
             <div class="slide">
                 <h1>x</h1>
             </div>
             <div class="slide"> Slide 3 </div>
             <div class="slide"> Slide 4 </div>
         </div>
-        <div class="section" id="slide3" data-anchor="DASLIDE3">xxxxx</div>
+        <div class="section heading-text" id="slide3" data-anchor="DASLIDE3">
+            <h1>This is the First Slide.</h1>
+        </div>
     </div>
 
     <script src="./resources/easings.js"></script>
@@ -36,11 +42,10 @@
     <script type="text/javascript">
         new fullpage('#fullpage', {
             anchors: ['DASLIDE1', 'DASLIDE2', 'DASLIDE3'],
-            sectionsColor: ['blue', 'orange', 'red'],
+            sectionsColor: ['#FF4D28', '#D9D1CC', '#3D3836'],
             // navigationTooltips: ['fullPage', 'Open', 'Easy', 'Touch'],
             // css3: true,
             // scrollingSpeed: 1000,
-            navigation: true,
             slidesNavigation: true,
             responsiveHeight: 410,
             dragAndMove: true,
