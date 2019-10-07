@@ -34,6 +34,10 @@ a {
   text-decoration-style: wavy;
 }
 
+.img-responsive {
+  padding: 1rem;
+}
+
 #fullpage {
   text-align: center;
 }
@@ -46,6 +50,23 @@ a {
   color: #ff4d28;
 }
 
+#slide2 p {
+  max-width: 50%;
+  margin: auto;
+}
+
 #slide3 {
   color: #d9d1cc;
+}
+
+@media only screen and (max-width: 768px) {
+  #slide2 p {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #slide2 p {
+    max-width: 90%;
+  }
 }
