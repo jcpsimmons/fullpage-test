@@ -4,47 +4,172 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="./resources/fullpage.css">
-    <link rel="stylesheet" href="./resources/custom.css">
-    <link rel="stylesheet" href="./resources/animate.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <title>fullPage.js | One Page Scroll sections Site Plugin</title>
-</head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./resources/fullpage.css" />
+    <link rel="stylesheet" href="./resources/custom.css" />
+    <link rel="stylesheet" href="./resources/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <title>Dr. Josh C. Simmons | Web Developer</title>
+  </head>
 
-<body data-lang="en" style="overflow: hidden; height: 100%;">
+  <body data-lang="en" style="overflow: hidden; height: 100%;">
     <div id="fullpage" class="fullpage-wrapper">
-        <div class="section heading-text" id="slide1" data-anchor="DASLIDE1">
-            <h1 class="teal-underline display-1">Dr. Josh C. Simmons</h1>
-            <h2 class="display-2"><i>Developer</i></h2>
-            <i class="fas fa-chevron-down fa-3x animated slow bounce delay-2s infinite"
-                style="padding-top:2rem;position:absolute;bottom:3rem"></i>
+      <div class="section heading-text" id="slide1" data-anchor="DASLIDE1">
+        <div class="bar"></div>
+        <img
+          src="img/josh-simmons-profile-photo.jpg"
+          alt="Photo of Josh Simmons"
+          class="img-responsive cirque"
+        />
+        <div class="spacer">
+          <h1 class="display-1 highlight" style="color:#3D3836">
+            Dr. Josh C. Simmons
+          </h1>
         </div>
-        <div class="section" id="slide2" data-anchor="DASLIDE2">
-            <div class="slide">
-                <img class="img-responsive" src="https://via.placeholder.com/350x150" alt="" class="src">
-                <h1 class="heading-text">Slide 1</h1>
-                <p class="sans-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sed a soluta fugit
-                    illum ad quo,
-                    veritatis impedit dolorum officiis quasi provident deleniti maxime, ducimus minus sequi eos nostrum
-                    reprehenderit.</p>
-            </div>
-            <div class="slide">
-                <h1>x</h1>
-            </div>
-            <div class="slide"> Slide 3 </div>
-            <div class="slide"> Slide 4 </div>
+        <div class="spacer">
+          <h2 class="display-2"><i>Web Developer</i></h2>
         </div>
-        <div class="section heading-text" id="slide3" data-anchor="DASLIDE3">
-            <h1>This is the First Slide.</h1>
-            <footer>
-                <p>footer stuff</p>
-            </footer>
+        <div class="text-center">
+          <i
+            class="fas fa-chevron-down fa-3x animated slow bounce delay-2s"
+            style="padding-top: 10rem;"
+          ></i>
         </div>
+      </div>
+      <div class="section heading-text" id="slide2" data-anchor="DASLIDE2">
+        <h1 class="text-left">Hello,</h1>
+        <p class="callout-text sans-serif">
+          I'm a fullstack web developer with over 5 years of industry experience
+          using various frontend and backend technologies. My Ph.D. background
+          helped me develop extreme discipline and to think radically outside of
+          the box - skills that I now apply to developing everything from static
+          webpages to dynamic fullstack web applications.
+        </p>
+        <p class="callout-text sans-serif" style="padding-top:2rem">
+          If you'd like to learn more you can view my
+          <a
+            href="https://www.icloud.com/iclouddrive/0siMTPuOdfynyUvZ3En41Y2gw#Josh-Simmons-Resume"
+            >resume</a
+          >, or <a href="mailto:jcpsimmons@gmail.com">email me</a>.
+        </p>
+        <i
+          class="fas fa-chevron-down fa-3x animated slow bounce delay-2s"
+          style="padding-top: 10rem;"
+        ></i>
+      </div>
+      <div class="section" id="slide3" data-anchor="DASLIDE3">
+        <div class="slide">
+          <img
+            class="img-responsive portfolio-image"
+            src="img/project-photos/living-spaces.jpg"
+            alt="Living Spaces website"
+            class="src"
+          />
+          <h1 class="heading-text">Living Spaces</h1>
+          <p class="sans-serif">
+            Coded landing pages and set up A/B tests in Optimizely (using JS and
+            jQuery) to gather BI on proposed tweaks to the site.
+            <a href="https://www.livingspaces.com/event/thanksgiving"
+              >Here is a page I recently coded.</a
+            >
+          </p>
+        </div>
+        <div class="slide">
+          <img
+            class="img-responsive portfolio-image"
+            src="img/project-photos/product-api.jpg"
+            alt="Product API Screenshot"
+            class="src"
+          />
+          <h1 class="heading-text">Product Data Aggregator</h1>
+          <p class="sans-serif">
+            Full stack application built on React/Flask/Firestore for internal
+            use at Living Spaces Furniture. Queries two external and one
+            internal API for product data given a sku.
+            <a href="https://root-catfish-206221.appspot.com/"
+              >Try searching for 246776.</a
+            >
+          </p>
+        </div>
+        <div class="slide">
+          <img
+            class="img-responsive portfolio-image"
+            src="img/project-photos/ADA-audit.jpg"
+            alt="ADA Audit Graph Screenshot"
+            class="src"
+          />
+          <h1 class="heading-text">ADA Audit Automation</h1>
+          <p class="sans-serif">
+            ADA compliance is more important now than ever. I created a Python
+            script that checks 30 pages on the Living Spaces domain using
+            Google's Lighthouse utility, plots the scores, and then emails the
+            relevant employees about the update. I configured it to run
+            automatically on a GCP Compute Instance.
+            <a href="https://chart-studio.plot.ly/~jcpsimmons/4"
+              >Interactive graph available here.</a
+            >
+          </p>
+        </div>
+        <div class="slide">
+          <img
+            class="img-responsive portfolio-image"
+            src="img/project-photos/simple-texting.png"
+            alt="Hand holding phone with Simple Texting logo on it"
+            class="src"
+          />
+          <h1 class="heading-text">Simple Texting UX</h1>
+          <p class="sans-serif">
+            UX consulting gig with Simple Texting to solve various user
+            pain-points.
+            <a
+              href="https://www.behance.net/gallery/79355581/SimpleTexting-UX-Research-and-UI-Design"
+              >More info here.</a
+            >
+          </p>
+        </div>
+        <div class="slide">
+          <img
+            class="img-responsive portfolio-image"
+            src="img/project-photos/greatreads.jpg"
+            alt="Screenshot of Greatreads web app"
+            class="src"
+          />
+          <h1 class="heading-text">Greatreads</h1>
+          <p class="sans-serif">
+            "Social" media application built on the MERN stack for keeping track
+            of books read.
+            <a href="https://pacific-stream-12395.herokuapp.com"
+              >Make an account and log your books here.</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="section heading-text" id="slide4" data-anchor="DASLIDE4">
+        <h1 class="highlight" style="font-size: 5rem;line-height:10rem;">
+          👋 Thanks for visiting!
+        </h1>
+        <footer>
+          <p
+            class="sans-serif"
+            style="font-style: normal;padding-top:2rem;color:#D9D1CC"
+          >
+            All code and copyright info available on the corresponding
+            <a href="https://github.com/jcpsimmons/jcpsimmons.github.io"
+              >GitHub repository</a
+            >.
+          </p>
+        </footer>
+      </div>
     </div>
 
     <script src="./resources/easings.js"></script>
@@ -54,18 +179,17 @@
     <script type="text/javascript" src="./resources/custom.js"></script>
 
     <script type="text/javascript">
-        new fullpage('#fullpage', {
-            anchors: ['DASLIDE1', 'DASLIDE2', 'DASLIDE3'],
-            sectionsColor: ['#FF4D28', '#D9D1CC', '#3D3836'],
-            // navigationTooltips: ['fullPage', 'Open', 'Easy', 'Touch'],
-            // css3: true,
-            // scrollingSpeed: 1000,
-            slidesNavigation: true,
-            responsiveHeight: 410,
-            dragAndMove: true,
-            dragAndMoveKey: 'YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc=',
-        });
+      new fullpage("#fullpage", {
+        anchors: ["DASLIDE1", "DASLIDE2", "DASLIDE3", "DASLIDE4"],
+        sectionsColor: ["#FF4D28", "#D9D1CC", "#3D3836", "#FF4D28"],
+        // navigationTooltips: ['fullPage', 'Open', 'Easy', 'Touch'],
+        css3: true,
+        // scrollingSpeed: 1000,
+        slidesNavigation: true,
+        responsiveHeight: 410,
+        dragAndMove: true,
+        dragAndMoveKey: "YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc="
+      });
     </script>
-</body>
-
+  </body>
 </html>
